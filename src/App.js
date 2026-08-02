@@ -1,13 +1,10 @@
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import "./App.css";
-
+import Header from "./components/Header";
 function App() {
-  let sum = 21 + 5;
   return (
     <>
-      <h3>My App</h3>
-      <input type="text" placeholder="Enter your name" />
-      <p>My sum works: {sum}</p>
+      <Header/>
     </>
   );
 }
